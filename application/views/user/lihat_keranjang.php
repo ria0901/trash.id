@@ -62,11 +62,11 @@
                                 <h5 class="text-primary"><?= "Rp " . number_format($this->cart->total(), 0, ',', '.'); ?></h5>
                             </div>
                         </div>
-                        <!-- <?php if (count($keranjang) > 0) { ?>
+                        <?php if (count($keranjang) > 0) { ?>
                             <div>
                                 <a href="<?= base_url('landing/hapus_keranjang') ?>" class="btn btn-outline-danger">Kosongkan Keranjang</a>
                                 <a href="<?= base_url('landing/checkout') ?>" class="btn btn-primary">Checkout</a>
-                            </div> -->
+                            </div>
                         <?php } ?>
                     </div>
                 </div>

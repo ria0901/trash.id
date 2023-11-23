@@ -79,12 +79,12 @@
                         <li class="nav-item">
                             <a href="<?= base_url('landing') ?>" class="nav-link"><i class="fas fa-home"></i><span>Beranda</span></a>
                         </li>
-                        <!-- <li class="nav-item">
+                        <li class="nav-item">
                             <a href="<?= base_url('landing/lihat_pesanan') ?>" class="nav-link"><i class="fas fa-file-invoice"></i><span>Pesanan</span></a>
                         </li>
                         <li class="nav-item">
                             <a href="<?= base_url('landing/aduan_pembeli') ?>" class="nav-link"><i class="fas fa-question"></i><span>Aduan</span></a>
-                        </li> -->
+                        </li>
                         <!-- <li class="nav-item dropdown">
                             <a href="#" data-toggle="dropdown" class="nav-link has-dropdown"><i class="far fa-clone"></i><span>Multiple Dropdown</span></a>
                             <ul class="dropdown-menu">
