@@ -65,7 +65,7 @@
                                 </center>
                                 <center class="mt-3">
                                     <input type="hidden" name="kode_produk" value="<?= $produk['kode_produk'] ?>">
-                                    <!-- <input type="hidden" name="status_pembuatan" value="<?= $produk['status_pembuatan'] ?>"> -->
+                                    <input type="hidden" name="status_pembuatan" value="<?= $produk['status_pembuatan'] ?>">
                                     <input type="hidden" name="stok_produk" value="<?= $produk['jumlah_ketersediaan'] ?>">
                                     <button type="submit" class="btn btn-primary text-light">Submit</button>
                                 </center>
@@ -79,7 +79,7 @@
 </div>
 <footer class="main-footer">
     <div class="footer-left">
-        Copyright &copy; 2022 <div class="bullet"></div> Design By TRASH.ID</a>
+        Copyright &copy; 2023 <div class="bullet"></div> Design By TRASH.ID</a>
     </div>
 </footer>
 </div>

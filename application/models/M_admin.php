@@ -26,7 +26,7 @@ class M_admin extends CI_Model
     {
         $this->db->select('*');
         $this->db->from('ketersediaansampah p');
-        // $this->db->join('statuspembuatansampah k', 'k.id_statusPembuatansampah = p.status_pembuatan');
+        $this->db->join('statuspembuatansampah k', 'k.id_statusPembuatansampah = p.status_pembuatan');
         $query = $this->db->get();
         return $query->result_array();
     }
@@ -35,7 +35,7 @@ class M_admin extends CI_Model
     {
         $this->db->select('*');
         $this->db->from('ketersediaansampah p');
-        // $this->db->join('statuspembuatansampah k', 'k.id_statusPembuatansampah = p.status_pembuatan');
+        $this->db->join('statuspembuatansampah k', 'k.id_statusPembuatansampah = p.status_pembuatan');
         $query = $this->db->get();
         return $query->num_rows();
     }
@@ -44,7 +44,7 @@ class M_admin extends CI_Model
     {
         $this->db->select('*');
         $this->db->from('ketersediaansampah p');
-        // $this->db->join('statuspembuatansampah k', 'k.id_statusPembuatansampah = p.status_pembuatan');
+        $this->db->join('statuspembuatansampah k', 'k.id_statusPembuatansampah = p.status_pembuatan');
         if (!empty($keyword)) {
             $this->db->like('id_ketersediaansampah', $keyword);
             $this->db->or_like('nama_sampah', $keyword);
@@ -64,7 +64,7 @@ class M_admin extends CI_Model
         $this->db->select('*');
         $this->db->from('ketersediaansampah');
         $this->db->join('user', 'user.id_user = ketersediaansampah.id_penjual');
-        // $this->db->join('statuspembuatansampah', 'statuspembuatansampah.id_statusPembuatansampah = ketersediaansampah.status_pembuatan');
+        $this->db->join('statuspembuatansampah', 'statuspembuatansampah.id_statusPembuatansampah = ketersediaansampah.status_pembuatan');
         $this->db->where('kode_produk', $kode_produk);
         $query = $this->db->get();
         return $query->row_array();
@@ -145,7 +145,7 @@ class M_admin extends CI_Model
     function getStatus()
     {
         $this->db->select('*');
-        // $this->db->from('statuspembuatansampah');
+        $this->db->from('statuspembuatansampah');
         $query = $this->db->get();
         return $query->result_array();
     }

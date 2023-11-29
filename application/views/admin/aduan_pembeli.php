@@ -1,4 +1,4 @@
-<!-- <div class="main-content">
+<div class="main-content">
     <section class="section">
         <div class="section-header">
             <h1>Daftar Aduan Pembeli</h1>
@@ -65,8 +65,8 @@
 </div>
 <footer class="main-footer">
     <div class="footer-left">
-        Copyright &copy; 2022 <div class="bullet"></div> Design By TRASH.ID</a>
+        Copyright &copy; 2023 <div class="bullet"></div> Design By TRASH.ID</a>
     </div>
 </footer>
 </div>
-</div> -->
+</div>
