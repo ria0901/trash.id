@@ -1,4 +1,4 @@
-<!-- <div class="main-content">
+<div class="main-content">
     <section class="section">
         <div class="section-header">
             <h1>Daftar Aduan Pembeli</h1>
@@ -69,4 +69,4 @@
     </div>
 </footer>
 </div>
-</div> -->
+</div>
