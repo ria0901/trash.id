@@ -44,7 +44,7 @@
 </div>
 <footer class="main-footer">
     <div class="footer-left">
-        Copyright &copy; 2022 <div class="bullet"></div> Design By TRASH.ID</a>
+        Copyright &copy; 2022 <div class="bullet"></div> Design By Tera-C</a>
     </div>
 </footer>
 </div>

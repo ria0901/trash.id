@@ -21,7 +21,7 @@
                     <li class="list-group-item">Stok Barang : <?= $data_produk['jumlah_ketersediaan'] ?> Pcs</li>
                     <!-- <li class="list-group-item">Ukuran Barang : <?= $data_produk['ukuran_sampah'] ?> Cm</li> -->
                     <li class="list-group-item">Harga : <?= $rupiah ?></li>
-                    <li class="list-group-item">Terakhir Restock : <?= $data_produk['tgl_restock'] ?></li>
+                    <!-- <li class="list-group-item">Terakhir Restock : <?= $data_produk['tgl_restock'] ?></li> -->
                 </ul>
                 <h5 class="mt-3">Dibuat Oleh :</h5>
                 <div class="article-user">
@@ -44,7 +44,7 @@
 </div>
 <footer class="main-footer">
     <div class="footer-left">
-        Copyright &copy; 2022 <div class="bullet"></div> Design By </a>
+        Copyright &copy; 2023 <div class="bullet"></div> Design By </a>
     </div>
 </footer>
 </div>

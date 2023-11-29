@@ -21,14 +21,14 @@
                                     <div class="col-md-3">
                                         <!-- <p class="card-text mb-3">Ukuran sampah</p> -->
                                         <p class="card-text mb-3">Tanggal Produksi</p>
-                                        <p class="card-text mb-3">Terakhir Restock</p>
+                                        <!-- <p class="card-text mb-3">Terakhir Restock</p> -->
                                         <p class="card-text mb-3">Kuantitas</p>
 
                                     </div>
                                     <div class="col-md-9">
                                         <!-- <p class="card-text text-dark mb-3"><?= $data_produk['ukuran_sampah'] ?> Cm.</p> -->
                                         <p class="card-text text-dark mb-3"><?= date_indo($data_produk['tgl_produksi']); ?></p>
-                                        <p class="card-text text-dark mb-3"><?= date_indo($data_produk['tgl_restock']); ?></p>
+                                        <!-- <p class="card-text text-dark mb-3"><?= date_indo($data_produk['tgl_restock']); ?></p> -->
                                         <div class="row">
                                             <div class="col-md-3">
                                                 <input type="number" name="qty" class="form-control" min="1">
@@ -54,7 +54,7 @@
 </div>
 <footer class="main-footer">
     <div class="footer-left">
-        Copyright &copy; 2022 <div class="bullet"></div> Design By TRASH.ID</a>
+        Copyright &copy; 2023 <div class="bullet"></div> Design By TRASH.ID</a>
     </div>
 </footer>
 </div>

@@ -99,7 +99,7 @@
                             Belum Memiliki Akun? <a href="<?= base_url('landing/register') ?>">Daftar</a>
                         </div>
                         <div class="simple-footer">
-                            Copyright &copy; TRASH.ID 2022
+                            Copyright &copy; TRASH.ID 2023
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 <!-- Main Content -->
-<!-- <div class="main-content">
+<div class="main-content">
     <section class="section">
         <div class="section-header">
             <h1>Daftar Produk</h1>
@@ -101,7 +101,7 @@
 </div>
 <footer class="main-footer">
     <div class="footer-left">
-        Copyright &copy; 2022 <div class="bullet"></div> Design By TRASH.ID</a>
+        Copyright &copy; 2023 <div class="bullet"></div> Design By TRASH.ID</a>
     </div>
 </footer>
 </div>
@@ -121,4 +121,4 @@
             modal.find('#nama_sampah').attr("value", div.data('nama'));
         });
     });
-</script> -->
+</script>

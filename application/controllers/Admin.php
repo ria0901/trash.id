@@ -262,6 +262,7 @@ class Admin extends CI_Controller
             'jumlah_ketersediaan' => htmlspecialchars($this->input->post('jumlah_produk')),
             'harga_sampah' => htmlspecialchars($this->input->post('harga_produk')),
             'foto_sampah' => $produk,
+            'status_pembuatan' => 8,
             'tgl_produksi' => date('Y-m-d'),
             'tgl_restock' => date('Y-m-d')
         ];

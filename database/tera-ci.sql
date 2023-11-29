@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 09, 2022 at 12:16 AM
+-- Generation Time: Jun 09, 2023 at 12:16 AM
 -- Server version: 10.1.35-MariaDB
 -- PHP Version: 7.2.9
 
@@ -43,7 +43,7 @@ CREATE TABLE `aduanpembeli` (
 --
 
 INSERT INTO `aduanpembeli` (`id_aduanPembeli`, `kode_aduan`, `id_pembeli`, `desk_aduan`, `bukti_aduan`, `status_aduan`, `tgl_aduan`) VALUES
-(8, 'ADUAN08062022XY3', 2, 'Pengiriman tidak sesuai dengan kode transaksi 10202026ASDJIS', 'ADUAN08062022XY3.png', 2, '2022-06-08');
+(8, 'ADUAN08062023XY3', 2, 'Pengiriman tidak sesuai dengan kode transaksi 10202026ASDJIS', 'ADUAN08062023XY3.png', 2, '2023-06-08');
 
 -- --------------------------------------------------------
 
@@ -66,10 +66,10 @@ CREATE TABLE `detaildatapemesanan` (
 --
 
 INSERT INTO `detaildatapemesanan` (`id_detaildataPemesanan`, `id_pembeli`, `kode_transaksi`, `total_hargaPemesanan`, `tgl_pemesanan`, `bulan_pemesanan`, `id_informasiStatus`) VALUES
-(1, 2, '060520225B6SOP', '20000', '2022-05-06', 'May', 3),
-(2, 2, '070520226U73IX', '20000', '2022-05-07', 'May', 6),
-(3, 2, '070520227FZZJ1', '10000', '2022-05-07', 'May', 6),
-(4, 2, '310520229W1RRG', '10000', '2022-05-31', 'May', 3);
+(1, 2, '060520235B6SOP', '20000', '2023-05-06', 'May', 3),
+(2, 2, '070520236U73IX', '20000', '2023-05-07', 'May', 6),
+(3, 2, '070520237FZZJ1', '10000', '2023-05-07', 'May', 6),
+(4, 2, '310520239W1RRG', '10000', '2023-05-31', 'May', 3);
 
 -- --------------------------------------------------------
 
@@ -90,12 +90,12 @@ CREATE TABLE `informasipemesanansampah` (
 --
 
 INSERT INTO `informasipemesanansampah` (`id_informasiPemesanansampah`, `kode_transaksi`, `kode_produk`, `jumlah_sampah`, `total_harga`) VALUES
-(2, '060520225B6SOP', 'KP_nvX1', 2, '10000'),
-(3, '060520225B6SOP', 'KP_QF92', 1, '10000'),
-(4, '070520226U73IX', 'KP_nvX1', 2, '10000'),
-(5, '070520226U73IX', 'KP_QF92', 1, '10000'),
-(6, '070520227FZZJ1', 'KP_nvX1', 2, '10000'),
-(7, '310520229W1RRG', 'KP_nvX1', 2, '10000');
+(2, '060520235B6SOP', 'KP_nvX1', 2, '10000'),
+(3, '060520235B6SOP', 'KP_QF92', 1, '10000'),
+(4, '070520236U73IX', 'KP_nvX1', 2, '10000'),
+(5, '070520236U73IX', 'KP_QF92', 1, '10000'),
+(6, '070520237FZZJ1', 'KP_nvX1', 2, '10000'),
+(7, '310520239W1RRG', 'KP_nvX1', 2, '10000');
 
 -- --------------------------------------------------------
 
@@ -145,8 +145,8 @@ CREATE TABLE `ketersediaansampah` (
 --
 
 INSERT INTO `ketersediaansampah` (`id_ketersediaansampah`, `kode_produk`, `nama_sampah`, `id_penjual`, `ukuran_sampah`, `jumlah_ketersediaan`, `harga_sampah`, `foto_sampah`, `status_pembuatan`, `tgl_produksi`, `tgl_restock`) VALUES
-(3, 'KP_nvX1', 'sampah 1 Kg', 1, '15', '20', '5000', 'KP_nvX1.jpg', 8, '2022-05-05', '2022-06-07'),
-(4, 'KP_QF92', 'sampah 2 Kg', 1, '20', '14', '10000', 'KP_QF92.jpg', 8, '2022-05-06', '2022-05-06');
+(3, 'KP_nvX1', 'sampah 1 Kg', 1, '15', '20', '5000', 'KP_nvX1.jpg', 8, '2023-05-05', '2023-06-07'),
+(4, 'KP_QF92', 'sampah 2 Kg', 1, '20', '14', '10000', 'KP_QF92.jpg', 8, '2023-05-06', '2023-05-06');
 
 -- --------------------------------------------------------
 
@@ -169,11 +169,11 @@ CREATE TABLE `laporankeuangan` (
 --
 
 INSERT INTO `laporankeuangan` (`id_laporanKeuangan`, `nominal`, `jenis`, `saldo_terakhir`, `tanggal`, `bulan`, `keterangan`) VALUES
-(1, '20000', 'Pemasukan', '20000', '2022-06-07', 'June', 'Pemasukan Dari Pemesanan Dengan Kode 060520225B6SOP'),
-(2, '20000', 'Pemasukan', '40000', '2022-06-07', 'June', 'Pemasukan Dari Pemesanan Dengan Kode 070520226U73IX'),
-(3, '10000', 'Pemasukan', '50000', '2022-06-07', 'June', 'Pemasukan Dari Pemesanan Dengan Kode 070520227FZZJ1'),
-(4, '10000', 'Pemasukan', '60000', '2022-06-07', 'June', 'Pemasukan Dari Pemesanan Dengan Kode 310520229W1RRG'),
-(5, '25000', 'Pengeluaran', '35000', '2022-06-07', 'June', 'Pengeluaran Pembuatan sampah Dengan Kode Produk KP_nvX1');
+(1, '20000', 'Pemasukan', '20000', '2023-06-07', 'June', 'Pemasukan Dari Pemesanan Dengan Kode 060520235B6SOP'),
+(2, '20000', 'Pemasukan', '40000', '2023-06-07', 'June', 'Pemasukan Dari Pemesanan Dengan Kode 070520236U73IX'),
+(3, '10000', 'Pemasukan', '50000', '2023-06-07', 'June', 'Pemasukan Dari Pemesanan Dengan Kode 070520237FZZJ1'),
+(4, '10000', 'Pemasukan', '60000', '2023-06-07', 'June', 'Pemasukan Dari Pemesanan Dengan Kode 310520239W1RRG'),
+(5, '25000', 'Pengeluaran', '35000', '2023-06-07', 'June', 'Pengeluaran Pembuatan sampah Dengan Kode Produk KP_nvX1');
 
 -- --------------------------------------------------------
 
@@ -195,10 +195,10 @@ CREATE TABLE `pembayaranpembelisampah` (
 --
 
 INSERT INTO `pembayaranpembelisampah` (`id_pembayaranPembelisampah`, `id_detailDataPemesanan`, `kode_transaksi`, `tgl_pembayaran`, `metode_pembayaran`, `bukti_pembayaran`) VALUES
-(2, 1, '060520225B6SOP', '2022-05-06', 'Transfer', 'BBB1.JPG'),
-(6, 2, '070520226U73IX', '2022-05-07', 'Transfer', 'dddd.JPG'),
-(7, 3, '070520227FZZJ1', '2022-05-07', 'Transfer', 'dddd1.JPG'),
-(8, 4, '310520229W1RRG', '2022-05-31', 'Transfer', 'AAA3.JPG');
+(2, 1, '060520235B6SOP', '2023-05-06', 'Transfer', 'BBB1.JPG'),
+(6, 2, '070520236U73IX', '2023-05-07', 'Transfer', 'dddd.JPG'),
+(7, 3, '070520237FZZJ1', '2023-05-07', 'Transfer', 'dddd1.JPG'),
+(8, 4, '310520239W1RRG', '2023-05-31', 'Transfer', 'AAA3.JPG');
 
 -- --------------------------------------------------------
 
@@ -249,9 +249,9 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id_user`, `nama_user`, `no_telp`, `alamat`, `email`, `password`, `jenis_kelamin`, `foto_profil`, `level_user`, `tgl_daftar`) VALUES
-(1, 'Admin TRASH.ID', '081234835361', 'Probolinggo', 'adminTera_c@gmail.com', '0192023a7bbd73250516f069df18b500', 'Perempuan', 'default.jpg', 1, '2022-05-04'),
-(2, 'Arman Maulana Saputra', '081234091823', 'Lumajang', 'user@gmail.com', '6ad14ba9986e3615423dfca256d04e3f', NULL, 'default.jpg', 2, '2022-04-14'),
-(3, 'Coba', '081234835352', 'coba', 'coba@gmail.com', 'a3040f90cc20fa672fe31efcae41d2db', 'Laki - Laki', 'AAA.JPG', 2, '2022-05-04');
+(1, 'Admin TRASH.ID', '081234835361', 'Probolinggo', 'adminTera_c@gmail.com', '0192023a7bbd73250516f069df18b500', 'Perempuan', 'default.jpg', 1, '2023-05-04'),
+(2, 'Arman Maulana Saputra', '081234091823', 'Lumajang', 'user@gmail.com', '6ad14ba9986e3615423dfca256d04e3f', NULL, 'default.jpg', 2, '2023-04-14'),
+(3, 'Coba', '081234835352', 'coba', 'coba@gmail.com', 'a3040f90cc20fa672fe31efcae41d2db', 'Laki - Laki', 'AAA.JPG', 2, '2023-05-04');
 
 --
 -- Indexes for dumped tables

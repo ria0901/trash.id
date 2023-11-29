@@ -2851,7 +2851,7 @@ a.bb {
 }
 
 .bullet:after {
-  content: '\2022';
+  content: '\2023';
 }
 
 .slash:after {
